@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main {
+  margin-top: 20px; /* Espace au-dessus de la section principale */
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none; /* Enlève les puces de la liste */
+}
+
+.listedestaches {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+li {
+  margin: 0px 10px 0px 10px;
+}
+
+.edit {
+  background-color: rgb(0, 255, 81);
+}
+
+.delete {
+  background-color: red;
+}
